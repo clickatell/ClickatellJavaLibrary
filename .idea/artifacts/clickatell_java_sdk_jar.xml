@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="clickatell-java-sdk:jar">
+    <output-path>$PROJECT_DIR$/bin/artifacts/clickatell_java_sdk_jar</output-path>
+    <root id="archive" name="clickatell-java-sdk.jar">
+      <element id="module-output" name="clickatell-java-sdk" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
