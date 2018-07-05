@@ -1,4 +1,4 @@
-Clickatell Java Library
+Clickatell Java Library - Master branch
 =====================
 
 You can see our other libraries and more documentation at the [Clickatell APIs and Libraries Project](http://clickatell.github.io/).
@@ -85,7 +85,7 @@ Run:
 java -cp .:json-simple-1.1.1.jar Runner
 ```
 
-Clickatell Java Lib - Platform
+Clickatell Java Lib - Platform branch
 =============================
 
 This SDK is based on the new clickatell platform.
