@@ -84,3 +84,13 @@ Run:
 ```
 java -cp .:json-simple-1.1.1.jar Runner
 ```
+
+Clickatell Java Lib - Platform
+=============================
+
+This SDK is based on the new clickatell platform.
+Instead of checking out this code base you can download the clickatell-java-sdk.jar file from https://github.com/clickatell/clickatell-java/tree/platform/bin/artifacts/clickatell_java_sdk_jar.
+
+Testing
+-------
+Testing can be done by editing the classes TestClickatellHttp and TestClickatellRest. You will need to supply your apiKey along with the number you would like to send the message.
