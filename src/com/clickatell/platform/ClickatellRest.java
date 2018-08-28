@@ -68,7 +68,7 @@ public class ClickatellRest {
 
         // Send Request:
         String response = this.execute("messages", POST, "{\"to\":[\"" + number
-                + "\"],\"content\":\"" + messageRequest.getFromNumber() + "\", \"from\":\""+fromNumber+"\"}");
+                + "\"],\"content\":\"" + messageRequest.getMessage() + "\", \"from\":\""+fromNumber+"\"}");
 
         return MessageUtil.stringToMessage(response);
     }
