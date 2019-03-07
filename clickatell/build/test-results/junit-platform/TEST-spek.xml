@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Spek" tests="0" skipped="0" failures="0" errors="0" time="0.011" hostname="noboru.local" timestamp="2019-03-08T02:28:01">
+<properties>
+<property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="/"/>
+<property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="gopherProxySet" value="false"/>
+<property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+<property name="java.class.path" value="/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/java/test:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/kotlin/test:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/resources/test:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/java/main:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/kotlin/main:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/resources/main:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.10/71d0fa967493eb76648b575edf1762cb2d0c7f10/kotlin-stdlib-jdk8-1.3.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.spek/spek-subject-extension/1.1.5/85189ba59c1f7a49f2ccc06f6c440363e0846a50/spek-subject-extension-1.1.5.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.spek/spek-junit-platform-engine/1.1.5/84bbc6c2b61230b5921458b87332672d08fdc1e3/spek-junit-platform-engine-1.1.5.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.spek/spek-api/1.1.5/bc19a88a54bb18edc9dd64d79b42f32b3215f1ca/spek-api-1.1.5.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.10/dd02865be0351707554b16a896b766b2396cdafa/kotlin-reflect-1.3.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.0.1/30fbf4448c594cb45d8e91630d6bb7f465906b88/junit-jupiter-api-5.0.1.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/com.natpryce/hamkrest/1.4.2.2/41d18053bcc41f41ce2de934369d2f485a40c198/hamkrest-1.4.2.2.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.10/4d147bf43060dc43d61b096e24da1e67dfe0c032/kotlin-stdlib-jdk7-1.3.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.1/3632e4a74a43d3ae8d29e6fa172cbc29590bda03/junit-platform-commons-1.0.1.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0/2931079616796bc4537f7e3c236f8fdfe7e51237/junit-platform-console-1.0.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0/5602a195a442636276efefce2a4c7b418cd67e5c/junit-platform-launcher-1.0.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0/fdc6f63a689b894529ea5e9e218b65422748fd/junit-platform-engine-1.0.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0/d2e03d9b21020746d48fe45834ff7d71fbcbd7b2/junit-platform-commons-1.0.0.jar:/Volumes/Data/Users/niiamon/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/endorsed"/>
+<property name="java.ext.dirs" value="/Volumes/Data/Users/niiamon/Library/Java/Extensions:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+<property name="java.home" value="/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre"/>
+<property name="java.io.tmpdir" value="/var/folders/5w/925nhthn3h54vnftk39vw7600000gn/T/"/>
+<property name="java.library.path" value="/Volumes/Data/Users/niiamon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_161-b12"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_161"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.161-b12"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="x86_64"/>
+<property name="os.name" value="Mac OS X"/>
+<property name="os.version" value="10.14.2"/>
+<property name="path.separator" value=":"/>
+<property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/resources.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/rt.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/sunrsasign.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/jsse.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/jce.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/charsets.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib/jfr.jar:/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/classes"/>
+<property name="sun.boot.library.path" value="/Volumes/Data/Users/niiamon/.sdkman/candidates/java/8u161-oracle/jre/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/java/main:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/kotlin/main:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/resources/main:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/java/test:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/classes/kotlin/test:/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/resources/test -n ^.*Tests?$ -e spek --reports-dir /Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell/build/test-results/junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="KE"/>
+<property name="user.dir" value="/Volumes/Data/projects/Skunkworks/payments-company/src/open-source/clickatell-java/clickatell"/>
+<property name="user.home" value="/Volumes/Data/Users/niiamon"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="niiamon"/>
+<property name="user.timezone" value="Africa/Nairobi"/>
+<property name="user.variant" value=""/>
+</properties>
+<system-out><![CDATA[
+unique-id: [engine:spek]
+display-name: Spek
+]]></system-out>
+</testsuite>

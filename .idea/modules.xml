@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clickatell-java-sdk.iml" filepath="$PROJECT_DIR$/.idea/clickatell-java-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.clickatell.commons.clickatell.iml" filepath="$PROJECT_DIR$/.idea/modules/com.clickatell.commons.clickatell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.clickatell.commons.clickatell-java.iml" filepath="$PROJECT_DIR$/.idea/modules/com.clickatell.commons.clickatell-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.iml" filepath="$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.main.iml" filepath="$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.test.iml" filepath="$PROJECT_DIR$/.idea/modules/clickatell/com.clickatell.platform.clickatell.test.iml" />
     </modules>
   </component>
 </project>
