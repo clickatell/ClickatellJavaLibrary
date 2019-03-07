@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clickatell-java-sdk.iml" filepath="$PROJECT_DIR$/.idea/clickatell-java-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gochargebot.commons.clickatell-java.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gochargebot.commons.clickatell-java.iml" />
     </modules>
   </component>
 </project>
