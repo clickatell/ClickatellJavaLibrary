@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Spek" tests="0" skipped="0" failures="0" errors="0" time="0.006" hostname="noboru.local" timestamp="2019-03-08T02:17:09">
+<testsuite name="Spek" tests="0" skipped="0" failures="0" errors="0" time="0.011" hostname="noboru.local" timestamp="2019-03-08T02:28:01">
 <properties>
 <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
 <property name="file.encoding" value="UTF-8"/>
